@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+
+    <style>
+
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-spacing: 0px;
+        padding: 30px;
+        width: 500px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercício de Tabelas - 02</h1>        
+    </header>
+    <main>                     
+        <h2>Tabela Layout de um site</h2>
+        
+        <!-- Corpo da tabela -->        
+        <table>
+            <thead>
+                <th style="width: 600; height: 80px; background-color:#20B2AA;" colspan="2">TOPO</th>
+            </thead>
+            
+            <tbody>
+                <tr style="height: 300px; text-align: center;">
+                    <td style="width: 150px;">MENU</td>
+                    <td>CONTEÚDO</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td style="height: 45px; text-align: center;" colspan="2">RODAPÉ</td>
+                </tr>
+            </tfoot>
+        </table>        
+        <br>
+
+        <!-- Layout  refatorado -->
+
+        <table >
+            <tr>
+                <th style="width: 600; height: 80px; background-color:#9370DB ;" colspan="2">TOPO</th>
+            </tr>
+            <tr style="height: 300px; text-align: center;">
+                <td style="width: 150px;">MENU</td>
+                <td>CONTEÚDO</td>
+            </tr>
+            <tr>
+                <td style="height: 45px; text-align: center;" colspan="2">RODAPÉ</td>
+            </tr>
+        </table>
+    </main>  
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3</title>
+
+    <style>
+      td {
+        height: 60px;
+        width: 60px;
+        border: 1px solid black;
+        border-spacing: 10px;
+      }
+
+      body {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+
+      table {
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 style="text-align: center">Layout site</h1>
+    </header>
+    <main>
+      <div style="display: inline-flex">
+        <span style="width: 33%">
+          <table>
+            <tr>
+              <td style="background-color: #FA8072;" colspan="3"></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </span>
+
+        <br />
+        <span style="width: 33%">
+          <table>
+            <tr>
+              <td style="background-color:#E9967A ;" rowspan="3"></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </span>
+        <br />
+
+        <span style="width: 50%">
+          <table>
+            <tr>
+              <td style="background-color:#FFA07A ;" colspan="5"></td>
+            </tr>
+
+            <tr>
+              <td style="background-color:#FFDEAD ;" rowspan="5"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td style="background-color:#D2B48C ;" rowspan="2"></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td style="background-color:#F4A460 ;" colspan="3"></td>
+              <td></td>
+            </tr>
+          </table>
+        </span>
+      </div>
+    </main>
+  </body>
+</html>
